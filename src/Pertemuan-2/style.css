@@ -1,0 +1,91 @@
+/* Shop Section */
+.shop {
+    padding: 5rem 7% 1.4rem;
+    align-items: center;
+  }
+  
+  .shop h2 {
+    text-align: center;
+    font-family: "Baloo Thambi 2";
+    margin-bottom: 1rem;
+    font-size: 2.5rem;
+    color: #0e3b35;
+  }
+  
+  .shop h4 {
+    max-width: 30rem;
+    font-weight: 300;
+    text-align: center;
+    margin: 0 auto;
+    margin-bottom: 1rem;
+  }
+  
+  .shop .row {
+    justify-content: center;
+    gap: 1.5rem;
+    margin-top: 0.1rem;
+    display: flex;
+  }
+  
+  .shop .product-card {
+    text-align: center;
+    padding: 2rem;
+  }
+  
+  .shop.product-icons {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .shop.product-icons a {
+    width: 4rem;
+    height: 4rem;
+    color: #fff;
+    margin: 0.3rem;
+    border: 1px solid #666;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .shop .product-image {
+    padding: 1rem 0;
+  }
+  
+  .shop .product-image img {
+    height: 17rem;
+    width: 17rem;
+    object-fit: cover;
+    border-radius: 1rem;
+  }
+  
+  .shop .product-content h3 {
+    font-size: 1.5rem;
+    font-family: "Baloo Thambi 2";
+    color: #0e3b35;
+  }
+  
+  .shop .product-stars {
+    font-size: 1.7rem;
+    font-family: "Baloo Thambi 2";
+    padding: 0.1rem;
+    font-weight: 10;
+    color: var(--primary);
+  }
+  
+  .shop .product-stars .star-full {
+    fill: var(--primary);
+  }
+  
+  .shop .product-price {
+    font-size: 1.3rem;
+    font-weight: bold;
+    color: #0e3b35;
+  }
+  
+  .shop .product-price span {
+    text-decoration: line-through;
+    font-weight: lighter;
+    font-size: 1rem;
+  }
